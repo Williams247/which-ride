@@ -1,0 +1,38 @@
+#header-id {
+    width: 168px;
+}
+
+.menu-list-container {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+    margin-left: -40px;
+}
+
+#header-pane-1 {
+    flex-grow: 100;
+}
+
+#header-pane-2 {
+    flex-grow: 0;
+}
+
+.list-padding {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.list-padding:hover {
+    color: #9B51E0 !important;
+}
+
+@media (min-width: 1000px) {
+    .menu-list-container {
+        font-family: 'Cera Pro';
+        font-style: normal;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    
+}

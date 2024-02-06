@@ -1,0 +1,39 @@
+.layout {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  padding-top: 30px;
+}
+
+@media (min-width: 1500px) {
+  .layout {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  #phone {
+    float: right;
+  }
+}
+
+@media (min-width: 2000px) {
+  .layout {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  #phone {
+    float: right;
+  }
+}
+
+@media (min-width: 3000px) {
+  .layout {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  #phone {
+    float: right;
+  }
+}

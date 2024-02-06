@@ -1,0 +1,108 @@
+#signup-section {
+  background: #f2c94c;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#sign-up-container {
+  width: 80%;
+}
+
+#signup-info {
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 114.5%;
+  letter-spacing: -0.01em;
+  color: #232c35;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#signup-info-2 {
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 114.5%;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #233533;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.form-1 {
+  width: 100%;
+}
+
+input[type="email"] {
+  border: 2px solid #ffffff;
+  background: transparent;
+  outline: none;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 18px;
+  color: white;
+}
+
+.form-2 {
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#sub {
+  background: #2c3539;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 17px;
+  line-height: 12px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  border: 1px solid #2c3539;
+  font-family: "Brown";
+}
+
+#sub:hover {
+  background: transparent;
+  border: 1px solid #2c3539;
+  color: #2c3539;
+}
+
+@media (min-width: 1000px) {
+  .form-1 {
+    width: 70%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .form-2 {
+    width: 30%;
+    padding-top: 0;
+  }
+  #sign-up-container {
+    width: 40%;
+  }
+  #signup-info {
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 114.5%;
+    letter-spacing: -0.01em;
+    color: #232c35;
+  }
+  #signup-info-2 {
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 114.5%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #233533;
+  }
+}

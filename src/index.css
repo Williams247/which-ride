@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('./assets/fonts/CeraPro.otf');
+}
+
+@font-face {
+  font-family: 'Brown';
+  src: url('./assets/fonts/FontsFree-Net-Brown-Regular-Regular.ttf');
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-direction-row-column {
+  flex-direction: column;
+}
+
+.side {
+  width: 100%;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-end {
+  justify-content: end;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.total-circle {
+  border-radius: 50%;
+}
+
+::placeholder {
+  color: white;
+}
+
+@media (min-width: 1000px) {
+  .side {
+    width: 50%;
+  }
+  .flex-direction-row-column {
+    flex-direction: row;
+  }
+}

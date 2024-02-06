@@ -1,0 +1,13 @@
+footer {
+    background: #DEB63D;
+    padding-bottom: 15px;
+}
+
+.footer-text {
+    font-family: 'Brown';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 9px;
+    color: #FFFFFF;
+}
